@@ -63,7 +63,7 @@ jobs:
       if: steps.version-check.outputs.should_build == 'true'
       run: |
         # 下载 floorp 浏览器
-        $url = "https://github.com/Floorp-Projects/Floorp/releases/latest/download/floorp-windows-x86_64.installer.exe "
+        $url = "https://github.com/Floorp-Projects/Floorp/releases/latest/download/floorp-windows-x86_64.installer.exe"
         $output = "$env:GITHUB_WORKSPACE\floorp-windows-x86_64.installer.exe"
         Invoke-WebRequest -Uri $url -OutFile $output
         
