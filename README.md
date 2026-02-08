@@ -1,8 +1,8 @@
 # Floorp-Libportable
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Piracola/Floorp-Libportable/Floorp-Portable-package.yml?style=flat-square&label=构建状态)](https://github.com/Piracola/Floorp-Libportable/actions/workflows/Floorp-Portable-package.yml)
-[![Latest Release](https://img.shields.io/github/v/release/Piracola/Floorp-Libportable?style=flat-square&label=最新版本&color=blue)](https://github.com/Piracola/Floorp-Libportable/releases/latest)
-[![License](https://img.shields.io/github/license/Piracola/Floorp-Libportable?style=flat-square&label=许可证)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Piracola/Floorp_portable/Floorp-Portable-package.yml?style=flat-square&label=构建状态)](https://github.com/Piracola/Floorp_portable/actions/workflows/Floorp-Portable-package.yml)
+[![Latest Release](https://img.shields.io/github/v/release/Piracola/Floorp_portable?style=flat-square&label=最新版本&color=blue)](https://github.com/Piracola/Floorp_portable/releases/latest)
+[![License](https://img.shields.io/github/license/Piracola/Floorp_portable?style=flat-square&label=许可证)](LICENSE)
 
 **开箱即用的 Floorp 浏览器便携版**
 
@@ -10,7 +10,7 @@
 
 ## 🚀 快速开始
 
-1. **下载**: [📥 下载最新版本](https://github.com/Piracola/Floorp-Libportable/releases/latest/download/Floorp.zip)
+1. **下载**: [📥 下载最新版本](https://github.com/Piracola/Floorp_portable/releases/latest/download/Floorp.zip)
 2. **解压**: 将压缩包解压到任意目录（如 `D:\Browser\Floorp`）。
 3. **运行**: 双击 `开始.bat`，脚本将自动创建快捷方式。
 
