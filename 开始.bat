@@ -2,7 +2,7 @@
 chcp 65001 >nul
 setlocal
 
-set "target=%~dp0floorp\floorp.exe"
+set "target=%~dp0Floorp\floorp.exe"
 set "lnk=%~dp0Floorp.lnk"
 
 if not exist "%target%" (
@@ -10,7 +10,7 @@ if not exist "%target%" (
     pause & exit /b 1
 )
 
-powershell -NoP -EP Bypass -C "$w=New-Object -ComObject WScript.Shell;$s=$w.CreateShortcut('%lnk%');$s.TargetPath='%target%';$s.WorkingDirectory='%~dp0floorp';$s.Description='Floorp浏览器';$s.Save()" 2>nul
+powershell -NoP -EP Bypass -C "$w=New-Object -ComObject WScript.Shell;$s=$w.CreateShortcut('%lnk%');$s.TargetPath='%target%';$s.WorkingDirectory='%~dp0Floorp';$s.Description='Floorp浏览器';$s.Save()" 2>nul
 
 if %errorlevel% neq 0 (
     echo [错误] 创建快捷方式失败
